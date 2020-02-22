@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+
+body{
+    background-color: rgb(231, 169, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    
+
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.logo h1, h3{
+    color: aliceblue;
+    font-family: 'Indie Flower', sans-serif ;
+    font-size: 40px;
+}
+.question{
+  
+}
+
+.question-field{
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-gap: 10px;
+    
+    color: #444;
+
+}
